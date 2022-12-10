@@ -1,0 +1,45 @@
+.background {
+  background: url(../../../public/images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-container {
+  height: 500px;
+  position: relative;
+}
+
+.img-container .model {
+  height: 100%;
+  width: 100%;
+}
+
+.img-container .glasses {
+  width: 50%;
+  position: absolute;
+  top: 131px;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
+}
+
+.content {
+  padding: 0 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  right: 50%;
+  transform: translateX(50%);
+  text-align: left;
+  background: rgb(255 192 203 / 40%);
+}
+
+.content h2 {
+  color: brown;
+}
+
+.content p {
+  color: white;
+  line-height: 1.5;
+  font-size: 18px;
+}
